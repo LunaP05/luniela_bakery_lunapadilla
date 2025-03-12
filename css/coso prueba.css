@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Contenedor principal */
+.contenedor {
+    width: 80%; /* Aumenta el ancho del contenedor */
+    max-width: 900px; /* Limita el tamaño en pantallas grandes */
+    margin: 20px auto;
+    padding: 30px; /* Más espacio interno */
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Sombra más visible */
+}
+
+/* Estilos para los campos del formulario */
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.mitexto {
+    color: #FFFFFF;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: italic;
+    font-size: medium;
+}
+
+
+.campo {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo input,
+.campo textarea {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Botón */
+.boton {
+    width: 100%;
+    padding: 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #c0392b;
+}
+
+/* Resumen del Pedido */
+.resumen {
+    width: 50%;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: white;
+}
+
+/* Producto dentro del pedido */
+.producto {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+	 width: 100%; /* Hace que ocupe todo el ancho */
+}
+
+/* Imagen del producto */
+.producto-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Precio en rojo */
+.precio {
+    color: #E74C3C;
+    font-weight: bold;
+}
+
+/* Subtotal */
+.subtotal {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+.bgwe {
+    color: #FFFFFF;
+    font-style: italic;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: x-large;
+}
+.container .navbar.navbar-expand-lg.navbar-dark.mt-3.p-3.bg-danger .navbar-brand {
+}

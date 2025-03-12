@@ -1,0 +1,20 @@
+@charset "utf-8";
+.bgcolor {
+	background-color: #583737;
+}
+.bgañañin {
+    background-size: cover;
+    background-position: 0 0%;
+    background-image: url(../vidioZ/2235422_Cake_Birthday_1280x720.gif);
+    color: #FFFFFF;
+}
+.cuadronigger {
+	background-color: rgba(0,0,0,0.47);
+	color: rgba(255,255,255,1.00);
+}
+
+.bghola {
+    background-image: url(../vidioZ/homosexual.gif);
+    background-size: cover;
+    background-position: 43% 0%;
+}

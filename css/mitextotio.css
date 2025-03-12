@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif; /* Usa la fuente */
+    font-size: 24px; /* Ajusta el tamaño */
+    color: #ffffff; /* Cambia el color */
+    font-weight: 700; /* Negrita opcional */
+    text-transform: capitalize; /* Hace que cada palabra inicie con mayúscula */
+}
+
+

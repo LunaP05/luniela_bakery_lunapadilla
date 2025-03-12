@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+.boton-contacto {
+    padding: 10px 20px !important; /* Ajusta el tamaño del botón */
+    font-size: 16px !important; /* Ajusta el tamaño del texto */
+    width: 160px !important; /* Ajusta el ancho */
+    height: 45px !important; /* Ajusta la altura */
+}
